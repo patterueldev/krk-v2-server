@@ -1,7 +1,7 @@
 {
-  "name": "@krk/common",
+  "name": "@krk/core",
   "version": "1.0.0",
-  "description": "KRK Common Core Lib",
+  "description": "KRK Core Lib",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -9,11 +9,15 @@
       "dist"
    ],
   "scripts": {
-    "build": "npm link && tsup",
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Pat Teruel",
   "license": "ISC",
+  "dependencies": {
+    "@krk/common": "^1.0.0",
+    "@krk/core": "^1.0.0"
+  },  
   "devDependencies": {
     "ts-node": "^10.9.1",
     "tsup": "^7.2.0",

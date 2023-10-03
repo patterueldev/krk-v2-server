@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "packages/krk-common"
+		},
+		{
+			"path": "packages/krk-core"
 		}
 	],
 	"settings": {}

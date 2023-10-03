@@ -1,7 +1,7 @@
 {
-  "name": "@krk/common",
+  "name": "@krk/core",
   "version": "1.0.0",
-  "description": "KRK Common Core Lib",
+  "description": "KRK Core Lib",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -14,6 +14,10 @@
   },
   "author": "Pat Teruel",
   "license": "ISC",
+  "dependencies": {
+    "@krk/common": "file:../packages/krk-common",
+    "@krk/core": "file:../packages/krk-core"
+  },  
   "devDependencies": {
     "ts-node": "^10.9.1",
     "tsup": "^7.2.0",

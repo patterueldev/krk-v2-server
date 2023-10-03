@@ -6,7 +6,7 @@
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "npx tsc",
-    "dev": "nodemon src/index.ts",
+    "dev": "npm link @krk/common @krk/core && nodemon src/index.ts",
     "test": "jest"
   },
   "keywords": [],
